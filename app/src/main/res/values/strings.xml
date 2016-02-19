@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ParkU</string>
+
+    <!-- Introduction view -->
+    <string name="str_step1_view">Step 1</string>
+    <string name="str_step2_view">Step 2</string>
+    <string name="str_step3_view">Step 3</string>
+
+    <!-- Login view -->
+    <string name="str_login_username">Username</string>
+    <string name="str_login_password">Password</string>
+    <string name="str_login_button">Login</string>
+    <string name="str_signup_button">Signup</string>
+
+    <!-- Signup view -->
+    <string name="str_firstname">First Name</string>
+    <string name="str_lastname">Last Name</string>
+    <string name="str_email">Email</string>
+    <string name="str_contact">Contact Number</string>
+    <string name="str_signup_username">Username</string>
+    <string name="str_signup_password">Password</string>
+    <string name="str_confirm_password">Confirm Password</string>
+    <string name="str_submit">Submit</string>
+    <string name="str_signup_textview">Sign Up</string>
+
+    <!-- HomePage view -->
+    <string name="str_header">Welcome User</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+</resources>

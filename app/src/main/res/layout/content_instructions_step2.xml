@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBgSteps">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/step2_header"/>
+
+    <ImageView
+        android:id="@+id/key_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/step2_image"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/key_image_view"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/step2_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swipe to left"
+        android:textColor="@color/colorVtInstruction"
+        android:layout_alignRight="@+id/key_image_view"
+        android:layout_marginRight="5dp"
+        android:layout_alignBottom="@id/key_image_view"
+        android:layout_marginBottom="5dp"/>
+
+</RelativeLayout>

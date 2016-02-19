@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBgSteps">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/step3_header"
+        android:id="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/key_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/step3_image"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/key_image_view"
+        android:src="@drawable/step3_content"
+        android:id="@+id/imageView" />
+
+    <Button
+        android:id="@+id/proceedLogin_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="Tap to      login"
+        android:layout_alignBottom="@+id/key_image_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/step3_buttonshape"
+        android:textColor="@color/colorBtnTxtLogin"
+        android:textSize="8dp"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="3"
+        android:onClick="onClickInstructionsLoginButton" />
+
+
+</RelativeLayout>
